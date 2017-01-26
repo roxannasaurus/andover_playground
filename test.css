@@ -1,0 +1,41 @@
+.test-block {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.lil-img-box {
+  
+}
+.lil-img {
+  width: 100px;
+  height: 100px;
+  background: #ff0000;
+  display: inline-block;
+}
+
+
+
+.projects-category-gallery-main-photo {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  cursor: pointer;
+  background-image:url("http://i680.photobucket.com/albums/vv161/roxanne54/PartyHatKids.jpg");
+}
+
+#fullscreen {
+  height: 100%;
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.6);
+}
+
+#fullscreen img {
+  margin: 0 auto; 
+  display: block;
+  
+}
